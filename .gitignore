@@ -13,33 +13,4 @@ node_modules/
 package-lock.json
 package.json
 
-# Dependency directories (if using package managers)
-jspm_packages/
 
-# Logs
-*.log
-
-# Build output
-/dist
-/build
-*.tgz
-
-# IDE and editor directories
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compiled files
-*.css.map
-*.js.map
-*.min.css
-*.min.js
-
-# Temporary files
-*.tmp
-*.swp
