@@ -1,7 +1,5 @@
 let map, marker;
-const ipGeoApiKey = import.meta.env.VITE_IPGEOLOCATION_API_KEY; // API key from .env
-const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY; 
-let trackedUserIP = ''; //  set by user via input
+const ipGeoApiKey = import.meta.env.VITE_IPGEOLOCATION_API_et trackedUserIP = ''; //  set by user via input
 
 // map by google map api ( intialise map ) -------------------------------------------------
 window.initMap = function() {
