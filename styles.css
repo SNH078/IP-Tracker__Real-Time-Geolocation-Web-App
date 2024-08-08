@@ -101,19 +101,19 @@ button:active {
 }
 
 
-    /* @keyframes blink: Defines the animation named blink. */
+
     @keyframes blink {
       0% {
           opacity: 1; 
-          /* fully visible */
+        
       }
       50% {
           opacity: 0;
-           /* partially visible */
+          
       }
       100% {
           opacity: 1;
-           /* fully visible */
+
       }
   }
 .blink-text.error-message {
@@ -124,5 +124,5 @@ button:active {
  text-align:left;
  margin-left:34px;
  font-size: 15px;
- margin-top: 5px;
+ margin-top: 10px;
 }
