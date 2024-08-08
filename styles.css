@@ -100,29 +100,3 @@ button:active {
   color: #3498db;
 }
 
-
-    /* @keyframes blink: Defines the animation named blink. */
-    @keyframes blink {
-      0% {
-          opacity: 1; 
-          /* fully visible */
-      }
-      50% {
-          opacity: 0;
-           /* partially visible */
-      }
-      100% {
-          opacity: 1;
-           /* fully visible */
-      }
-  }
-.blink-text.error-message {
-  color: red;
-  animation: blink 1s 3; /* animation name , duration , repetition count  */
- display: none;  /* Hide by default */
-
- text-align:left;
- margin-left:34px;
- font-size: 15px;
- margin-top: 5px;
-}
