@@ -12,7 +12,7 @@ window.initMap = function() {
    marker = new google.maps.Marker({
         
         map: map,
-        position: { lat: 0, lng: 0 }, 
+        position: { lat: 0, lng: 0 },
         title: 'Tracked Location',
     });
 }
@@ -28,10 +28,10 @@ window.fetchLocation = function() {
                     lng: parseFloat(data.longitude),
                 };
 
-                marker.setPosition(pos);
-                map.setCenter(pos); 
+                marker.setPosition(pos); 
+                map.setCenter(pos);
                 updateLocationDetails(data);
-                clearError(); 
+                clearError();
             } else {
                 displayError('Location data is missing...Try entering a valid IP address');
             }
@@ -58,9 +58,10 @@ window.updateLocationDetails = function(data) {
     document.getElementById('coordinates').textContent = `latitude: ${data.latitude},longitude: ${data.longitude}`;
     document.getElementById('city').textContent = data.city || 'N/A';
     document.getElementById('country').textContent = data.country_name || 'N/A';
+    document.getElementById('address').textContent = data.address || 'N/A';
 }
 
-//update IP button ------------------------------------------------------
+// onclick --update IP button ------------------------------------------------------
 window.updateIP = function() {
     const ipInput = document.getElementById('ipAddressInput').value;
     const blinkTextElements = document.getElementsByClassName('blink-text');
@@ -68,11 +69,12 @@ window.updateIP = function() {
     if (ipInput) {
         trackedUserIP = ipInput;
         fetchLocation(); 
-        
+
         if (blinkTextElements.length > 0) {
                  blinkTextElements[0].style.display = 'none';
         }
     } else {
+    
         if (blinkTextElements.length > 0) {
             blinkTextElements[0].style.display = 'block';
             blinkTextElements[0].textContent = 'Enter IP address here ⬆️ ';
@@ -88,3 +90,4 @@ script.async = true;
 script.defer = true;
 
 document.head.appendChild(script);
+
