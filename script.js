@@ -1,5 +1,7 @@
 let map, marker;
-const ipGeoApiKey = import.meta.env.VITE_IPGEOLOCATION_API_et trackedUserIP = ''; //  set by user via input
+const ipGeoApiKey = import.meta.env.VITE_IPGEOLOCATION_API_KEY; 
+const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY; 
+let trackedUserIP = ''; //  set by user via input
 
 // map by google map api ( intialise map ) -------------------------------------------------
 window.initMap = function() {
@@ -56,7 +58,6 @@ window.updateLocationDetails = function(data) {
     document.getElementById('coordinates').textContent = `latitude: ${data.latitude},longitude: ${data.longitude}`;
     document.getElementById('city').textContent = data.city || 'N/A';
     document.getElementById('country').textContent = data.country_name || 'N/A';
-    document.getElementById('address').textContent = data.address || 'N/A';
 }
 
 // onclick --update IP button ------------------------------------------------------
