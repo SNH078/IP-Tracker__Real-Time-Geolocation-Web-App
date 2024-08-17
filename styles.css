@@ -55,7 +55,6 @@ button {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.1s, transform 0.2s;
-
   margin: 10px;
 }
 
@@ -116,7 +115,7 @@ button:active {
   }
 .blink-text.error-message {
   color: red;
-  animation: blink 1s 3; /* animation name , duration , repetition count  */
+  animation: blink 1s 3; 
  display: none;  /* Hide by default */
 
  text-align:left;
