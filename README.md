@@ -7,3 +7,19 @@ Built a web-based application to display real-time geolocation information for I
 npx vite ( VS Code)
 localhost:3000
 SEE DEMO : https://snh078.github.io/ip--open-location-tracker-/
+
+Create a file named .env.example in your repo with placeholder values:
+
+# SETUP
+```
+touch .env
+```
+open .env file 
+```
+VITE_IPGEOLOCATION_API_KEY=your_ipgeolocation_key_here
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_key_here
+```
+ replace with your API keys 
+
+# run
+Go live 
