@@ -12,12 +12,15 @@ Create a file named .env.example in your repo with placeholder values:
 
 # SETUP
 ```
-touch .env
+touch config.js
 ```
-open .env file 
+open config.js file 
 ```
-VITE_IPGEOLOCATION_API_KEY=your_ipgeolocation_key_here
-VITE_GOOGLE_MAPS_API_KEY=your_google_maps_key_here
+// config.js
+window.config = {
+  GOOGLE_MAPS_API_KEY: "your_google_maps_api_key_here",
+  IPGEOLOCATION_API_KEY: "your_ipgeolocation_api_key_here"
+};
 ```
  replace with your API keys 
 
