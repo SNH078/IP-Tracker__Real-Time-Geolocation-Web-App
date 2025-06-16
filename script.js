@@ -1,6 +1,7 @@
 let map, marker;
 const ipGeoApiKey = window.config.IPGEOLOCATION_API_KEY;
-const googleMapsApiKey = window.config.GOOGLE_MAPS_API_KEY; 
+const googleMapsApiKey = window.config.GOOGLE_MAPS_API_KEY;
+
 let trackedUserIP = ''; 
 
 // map by google map api ( intialise map ) -------------------------------------------------
