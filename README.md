@@ -1,8 +1,8 @@
-# 1--IP-Address-Location-Tracker-
+# IP Tracker – Real-Time Geolocation Web App
 
 Built a web-based application to display real-time geolocation information for IP addresses. Deployed Google Maps API to provide an interactive map experience with dynamic updates. Designed with a user-friendly interface to enhance data visualization and user interaction. 
 
-![image](https://github.com/user-attachments/assets/941b9049-2e39-4874-819b-b8483e250a05)
+<img width="875" height="871" alt="image" src="https://github.com/user-attachments/assets/1633b33c-a887-43e2-9c64-2d80c9e5eac3" />
 
 npx vite ( VS Code)
 localhost:3000
