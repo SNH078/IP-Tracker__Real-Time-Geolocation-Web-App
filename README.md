@@ -24,7 +24,9 @@ window.config = {
   IPGEOLOCATION_API_KEY: "your_ipgeolocation_api_key_here"
 };
 ```
- replace with your API keys   
+ replace with your API keys     
+  
+  (get your leys here : [github repo]( https://github.com/SNH078/.env-API_KEY/blob/main/IP%20Tracker_API_KEY.md ) )
  
 Create a file named .env.example in your repo with placeholder values:
 # run
