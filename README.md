@@ -7,8 +7,8 @@ Designed with a user-friendly interface to enhance data visualization and user i
 <img width="875" height="835" alt="image" src="https://github.com/user-attachments/assets/be2d51a2-7c28-442e-b489-9df15641135f" />
 
 npx vite ( VS Code)  
-localhost:3000SEE   
-DEMO : https://snh078.github.io/ip--open-location-tracker-/
+localhost:3000  
+SEE DEMO : [demo](https://snh078.github.io/ip--open-location-tracker-/)
 
 
 
