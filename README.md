@@ -10,7 +10,7 @@ npx vite ( VS Code)
 localhost:3000SEE   
 DEMO : https://snh078.github.io/ip--open-location-tracker-/
 
-Create a file named .env.example in your repo with placeholder values:
+
 
 # SETUP
 ```
@@ -24,7 +24,8 @@ window.config = {
   IPGEOLOCATION_API_KEY: "your_ipgeolocation_api_key_here"
 };
 ```
- replace with your API keys 
-
+ replace with your API keys   
+ 
+Create a file named .env.example in your repo with placeholder values:
 # run
 Go live 
