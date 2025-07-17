@@ -6,11 +6,4 @@ notes.md
 setup_vite.md
 API key notes.md
 
-# Node modules
-node_modules/
-
-# Package management
-package-lock.json
-package.json
-
 
