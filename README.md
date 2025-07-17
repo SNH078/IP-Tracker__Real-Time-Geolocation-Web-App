@@ -4,7 +4,7 @@ Built a web-based application to display real-time geolocation information for I
 Deployed Google Maps API to provide an interactive map experience with dynamic updates.  
 Designed with a user-friendly interface to enhance data visualization and user interaction. 
 
-<img width="875" height="871" alt="image" src="https://github.com/user-attachments/assets/1633b33c-a887-43e2-9c64-2d80c9e5eac3" />
+<img width="875" height="835" alt="image" src="https://github.com/user-attachments/assets/be2d51a2-7c28-442e-b489-9df15641135f" />
 
 npx vite ( VS Code)  
 localhost:3000SEE   
