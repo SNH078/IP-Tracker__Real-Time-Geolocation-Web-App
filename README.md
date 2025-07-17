@@ -6,9 +6,9 @@ Designed with a user-friendly interface to enhance data visualization and user i
 
 <img width="875" height="871" alt="image" src="https://github.com/user-attachments/assets/1633b33c-a887-43e2-9c64-2d80c9e5eac3" />
 
-npx vite ( VS Code)
-localhost:3000
-SEE DEMO : https://snh078.github.io/ip--open-location-tracker-/
+npx vite ( VS Code)  
+localhost:3000SEE   
+DEMO : https://snh078.github.io/ip--open-location-tracker-/
 
 Create a file named .env.example in your repo with placeholder values:
 
