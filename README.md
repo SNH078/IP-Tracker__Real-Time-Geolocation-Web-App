@@ -26,7 +26,7 @@ window.config = {
 ```
  replace with your API keys     
   
-  (get your API keys here : [github repo]( https://github.com/SNH078/.env-API_KEY/blob/main/IP%20Tracker_API_KEY.md ) )
+  (owner's repo -API keys : [github repo]( https://github.com/SNH078/.env-API_KEY/blob/main/IP%20Tracker_API_KEY.md ) )
  
 Create a file named .env.example in your repo with placeholder values:
 # run
